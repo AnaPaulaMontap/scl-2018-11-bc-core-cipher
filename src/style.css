@@ -1,1 +1,44 @@
-/* Acá va tu código */
+/* Acá va tu código */ 
+body {
+    background-image:url(https://images.pexels.com/photos/1303081/pexels-photo-1303081.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+    background-size: 100%;
+    text-align: center;
+    color: #e5e2b6;
+    padding: 3%;
+        
+}
+#cipherText{
+    width: 80%;
+    height: 25%;
+    padding: 5%;
+    background: #edf0c7;
+    border: 1px solid #310b08;
+    opacity: 0.9;
+    
+}
+#offset{
+    width: 20%;
+    height: 20%;
+    background: #edf0c7;
+    border: 1px solid #310b08;
+    opacity: 0.9;
+}
+button{
+    width: 20%;
+    height: 20%;
+    border: 1px solid #e5e2b6 ;
+    color: #e5e2b6;
+    background:  #b71c1c 
+}
+#root{
+    width: 80%;
+    height: 25%;
+    padding: 5%;
+    background: #edf0c7;
+    border: 1px solid #310b08;
+    opacity: 0.9;
+    margin: 0 5%;
+    color: black;
+   
+}
+
