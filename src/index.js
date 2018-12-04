@@ -9,7 +9,7 @@ window.onload = () => {
         
     root.innerHTML = cipher.encode(displace,capLetter)
     });
-    const root2 = document.getElementById("root2");
+    const root2 = document.getElementById("root");
     document.getElementById("dCipher").addEventListener("click",(evento)=>{
         evento.preventDefault();
         let capLetter= document.getElementById("cipherText").value;
