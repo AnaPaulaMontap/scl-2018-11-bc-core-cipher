@@ -2,8 +2,15 @@
 
 A todos nos a pasado alguna vez que nos regalan algo que no esta en nuestros gustos, que no es tu talla o simplemente no va con tu estilo, bueno ***CifraRegalos*** viene a solucionar esta problematica de manera sencilla y entretenida para entregar una lista de nuestros gustos y divertirnos un poco descifrando el de nuuestros amigos v/ compañeros de oficina / familia , etc.
 
-
 ![cipherChristmas](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDzC1Dt59hamyiHHeGTuKHoYSRdl73IC0F-vlaoVQPxG5RuE1w)
+
+## ¿Cómo puedo probarla?
+
+Puedes conocer CifraRegalos en la siguiente dirección,
+
+[CifraRegalos](https://anapaulamontap.github.io/scl-2018-11-bc-core-cipher/)
+
+*Próximanente disponible para descarga moviles.*
 
 ## ¿Conoces el Cifrado Cesar?
 
