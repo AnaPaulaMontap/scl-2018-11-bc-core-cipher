@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css">
-   </head>
-  <body>
-    
-      <h1> CifraRegalos</h1>
-      <p> Porfavor sólo ingresar caracteres <strong> EN MAYUSCULAS </strong> </p>
-      <form> 
-        <div>
-           <input class="card-panel teal lighten-2" type="text" placeholder="Ingresa el texto a cifrar" id="cipherText">
-        </div> <div></div> <div>
-           <input type="text" placeholder="Desplazamiento de tu texto" id="offset">
-        </div>
-        <div></div>
-           <button class= "button" id="bCipher"> Cifrar! </button>
-           <button class= "button" id="dCipher"> Descifrar! </button>
-           <div></div>
-       <div id= "root"> 
-        <!-- CODIGO JS-->
-        </div>
-       
-    </form>
 
-    <script 
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1 id="changeShadow"> CifraRegalos</h1>
+    <p> Porfavor sólo ingresar caracteres <strong> EN MAYUSCULAS </strong> </p>
+  </header>
+  <form>
+    <div>
+      <input class="card-panel teal lighten-2" type="textarea" placeholder="Ingresa el texto a cifrar" id="cipherText">
+    </div> <br>
+    <div id="paragraph">
+      <p>Favor elige un numero entre 2 y 100 para desplazar tu texto.<br> <strong>(Sólo números enteros)</strong></p>
+      <input type="text" id="offset">
+    </div>
+    <div></div><br><br>
+    <button class="button" id="bCipher"> Cifrar! </button>
+    <button class="button" id="dCipher"> Descifrar! </button>
+    <div></div><br><br>
+    <div id="root">
+
+    </div> <br>
+    <button class="button" id="buttonCopy">Copiar texto</button>
+  </form>
+
+  <script <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>
