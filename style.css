@@ -1,61 +1,77 @@
-/* Acá va tu código */ 
-body {
-    background-image:url(https://images.pexels.com/photos/1303081/pexels-photo-1303081.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
-    background-size: 100%;
-    text-align: center;
-    color: #e5e2b6;
-   
-        
-}
-#changeShadow{
-    text-shadow: 2px 2px 3px #000000;
-   
-    
-}
-#cipherText{
-    width: 80%;
-    height: 25%;
-    padding: 5%;
-    background: #edf0c7;
-    border: 2px solid #310b08;
-    opacity: 0.8;
-    border-radius: 10px;
-    text-align: center;
-    
-}
-#offset{
-    width: 3%;
-    height: 2%;
-    background: #edf0c7;
-    border: 2px solid #310b08;
-    opacity: 0.9;
-    padding: 2%;
-    border-radius: 10px;
-}
-button{
-    width: 20%;
-    height: 20%;
-    border: 2px solid #e5e2b6 ;
-    color: #e5e2b6;
-    background:  #b71c1c;
-    padding: 1%;
-    border-radius: 15px;
-}
-#root{
-    width: 80%;
-    height: 25%;
-    padding: 5%;
-    background: #edf0c7;
-    border: 2px solid #310b08;
-    opacity: 0.8;
-    margin: 0 5%;
-    color: black;
-    border-radius: 10px;
-    text-shadow: 2px 2px 3px white;
+.bg-pattern {
+  background-image: url(https://images.pexels.com/photos/1303081/pexels-photo-1303081.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+  background-size: 100%;
+  background-repeat: round;
+  text-align: center;
+  text-shadow: 2px 2px 3px black;
+  color: #e5e2b6;
+  margin: 0%;
+  padding: 1%;
 
 }
-#paragraph{
-    text-shadow: 2px 2px 3px #000000;   
+
+#cipherText,
+#root {
+  width: 80%;
+  height: 25%;
+  padding: 5%;
+  background: #edf0c7;
+  border: 2px solid #310b08;
+  opacity: 0.8;
+  border-radius: 10px;
+  text-align: center;
+
+}
+
+#offset {
+  width: 5%;
+  height: 5%;
+  background: #edf0c7;
+  border: 2px solid #310b08;
+  opacity: 0.9;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.button {
+  width: 30%;
+  height: 30%;
+  border: 2px solid #e5e2b6;
+  color: #e5e2b6;
+  background: #b71c1c;
+  padding: 1%;
+  border-radius: 15px;
+}
+
+.footer-copyright {
+  width: 100%;
+}
+
+.title-footer {
+  text-shadow: 2px 2px 3px black;
+}
+
+.container ul li {
+  width: 20%;
+  height: 20%;
+  display: inline-block;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
 }
 
 

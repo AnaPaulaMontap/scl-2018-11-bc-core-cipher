@@ -2,7 +2,7 @@
 window.onload = () => {
 
   const root = document.getElementById("root");
-  document.getElementById("bCipher").addEventListener("click", (evento) => {
+  document.getElementById("button-cipher").addEventListener("click", (evento) => {
     evento.preventDefault();
     let capLetter = document.getElementById("cipherText").value;
     let displace = parseInt(document.getElementById("offset").value);
@@ -10,7 +10,7 @@ window.onload = () => {
     root.innerHTML = cipher.encode(displace, capLetter)
   });
   const root2 = document.getElementById("root");
-  document.getElementById("dCipher").addEventListener("click", (evento) => {
+  document.getElementById("button-decode").addEventListener("click", (evento) => {
     evento.preventDefault();
     let capLetter = document.getElementById("cipherText").value;
     let displace = parseInt(document.getElementById("offset").value);
@@ -24,7 +24,7 @@ window.onload = () => {
 
   button.addEventListener("click", function () {
 
-      // We will need a range object and a selection.
+
       let range = document.createRange(),
         selection = window.getSelection();
       selection.removeAllRanges();
