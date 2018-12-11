@@ -1,36 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Caesar Cipher</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cesar Cipher</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fonts/style.css">
 </head>
 
 <body>
-  <header>
-    <h1 id="changeShadow"> CifraRegalos</h1>
-    <p> Porfavor sólo ingresar caracteres <strong> EN MAYUSCULAS </strong> </p>
-  </header>
-  <form>
-    <div>
-      <input class="card-panel teal lighten-2" type="textarea" placeholder="Ingresa el texto a cifrar" id="cipherText">
-    </div> <br>
-    <div id="paragraph">
-      <p>Favor elige un numero entre 2 y 100 para desplazar tu texto.<br> <strong>(Sólo números enteros)</strong></p>
-      <input type="text" id="offset">
-    </div>
-    <div></div><br><br>
-    <button class="button" id="bCipher"> Cifrar! </button>
-    <button class="button" id="dCipher"> Descifrar! </button>
-    <div></div><br><br>
-    <div id="root">
+  <div class="bg-pattern">
+    <header id="first-part">
+      <h1>CifraRegalos</h1> <br><br>
+    </header>
+    <section id="content">
+      <article>
+        <p> Por favor sólo ingresar caracteres <strong> EN MAYUSCULAS </strong> </p>
+        <form>
+          <div>
+            <textarea class="card-panel lighten-2" id="cipherText"> Ingresa tu texto a cifrar. </textarea>
+          </div> <br>
+          <div id="paragraph">
+            <p>Favor elige un número entre 2 y 100 para desplazar tu texto.<br> <strong>(Sólo números enteros)</strong></p>
+            <input type="text" id="offset">
+          </div>
+          <div></div><br><br>
+          <button class="button" id="button-cipher"> Cifrar! </button>
+          <button class="button" id="button-decode"> Descifrar! </button>
+          <div></div><br><br>
+          <textarea readonly class="card-panel lighten-2" id="root"> Tu código es.... </textarea>
+          <br><br>
+          <button class="button" id="buttonCopy">Copiar texto</button>
+        </form>
+        <br><br>
+      </article>
+    </section>
+  </div>
+  
+  <footer class="page-footer #b71c1c red darken-4 white-text text-lighten-2 ">
+    <div class="container">
+      <div class="row">
 
-    </div> <br>
-    <button class="button" id="buttonCopy">Copiar texto</button>
-  </form>
+        <div class="container ">
+          <h5 class="white-text" id="title-footer">Compártelo con tus Redes Sociales</h5>
+          <ul>
+            <li><a class="white-text" href="http://gmail.com"> <i class="icon-gmail"></i> </a> Gmail </li>
+            <li><a class="white-text" href="http://Facebook.com"><i class="icon-facebook"></i> Facebook </a></li>
+            <li><a class="white-text" href="https://web.whatsapp.com/"><i class="icon-whatsapp"></i> Whatsapp </a></li>
+            <li><a class="white-text" href="https://web.whatsapp.com/"><i class="icon-github"></i> Github </a></li>
+          </ul><br>
+          <p> Made By AnaPaulaMontap© - Laboratoria 2018</p>
+        </div>
 
-  <script <script src="cipher.js"></script>
+
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="cipher.js"></script>
   <script src="index.js"></script>
 </body>
 

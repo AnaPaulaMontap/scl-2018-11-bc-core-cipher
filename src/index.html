@@ -7,21 +7,22 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-  <div id="root">
+  <div id="root2">
     <div id="index-banner" class="parallax-container">
       <div class="section no-pad-bot">
         <div class="container">
           <br><br>
           <h1 class="header left white-text text-lighten-2"><strong>Bienvenido/as a CifraRegalos</strong></h1>
           <div class="row left">
-            <h5 class="header left white-text text-lighten-2 col s12 ">Si nunca le aciertan en tus regalos o no sabes
-              que regalar, comparte con tus amigos un <strong> REGALO CIFRADO </strong> con la lista de tus cosas
-              favoritos y diviértete descifrando los regalos de otros.</h5>
+            <h5 class="header left white-text text-lighten-2 col"> ¿Nunca le aciertan en tus regalos? <br> <br> ¿No
+              sabes qué regalar? <br> <br> ¿Quieres implementar un amigo secreto entretenido?<br> <br>
+              Sí nunca le aciertan en tus regalos o no sabes que obsequiar, prepárate para jugar al Regálo Cifrado,
+              coloca la lista de tus preferencias y diviértete descifrando.</h5>
           </div>
           <br><br>
         </div>
@@ -33,33 +34,46 @@
   <div class="container">
     <div class="section">
 
-    </div>
-    <div class="container">
-      <h2 class="header ">Cifrado Cesar</h2>
-      <p class="light">El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es un tipo de
-        cifrado por sustitución, es decir, que cada letra del texto original es reemplazada por otra que se encuentra
-        un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
-        <div></div>
-        Por ejemplo, si usamos un desplazamiento (offset) de 3 posiciones:
-        <div></div>
-        La letra <strong>A</strong> se cifra como <strong>D</strong>. <div></div>
-        La palabra <strong>CASA </strong>se cifra como FDVD. <div></div>
-        Alfabeto sin cifrar:<strong> A B C D E F G H I J K L M N O P Q R S T U V W X Y Z </strong>
-        <div></div>
-        Alfabeto cifrado: <strong>D E F G H I J K L M N O P Q R S T U V W X Y Z A B C </strong>
-      </p>
-    </div>
+      <div class="col s12 m7">
+        <h2 class="header brown-text text-darken-2">¿Conoces el Cifrado Cesar?</h2>
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPhVGqhad9WANln_WHTMbjTzDpQcGlp_A2n6G2TYZM8RlJYueh">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>El cifrado césar es una de las técnicas más simples para cifrar un mensaje, consiste en sustituir cada
+                letra del texto original por otra que se encuentra un número fijo de posiciones más adelante en el
+                mismo alfabeto.
+                <br>
+                Por ejemplo, si desplazamos 1 posición reemplazaríamos la letra A con la B, la B con la C, y así
+                sucesivamente hasta sustituir la Z por la A.
+                <br><br>
+                - Abecedario sin cifrar : A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z <br>
+                - Cifrado con desplazamiento 1: B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z A
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <div class="row center">
-      <a class="#b71c1c red darken-4 waves-effect waves-light btn" href="app.html"><i class="material-icons left">spellcheck</i>
-        COMENZAR</a>
+      <div class="row center">
+        <a class="#b71c1c red darken-4 waves-effect waves-light btn" href="app.html"><i class="material-icons left">spellcheck</i>
+          COMENZAR</a>
+      </div>
+
+      <footer class="page-footer #b71c1c red darken-4 white-text text-lighten-2" id="feet">
+           <div class="footer-copyright">
+            <div class="container center-align">
+            Made by AnaPaulaMontap © - Laboratoria 2018. 
+            </div>
+          </div>
+        </footer>
 
     </div>
-
-  </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script src="cipher.js"></script>
-  <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
