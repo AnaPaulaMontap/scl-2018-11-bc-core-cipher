@@ -62,11 +62,11 @@ Se  realiza una prueba con dos usuarios,
 
 - Alberto de 55 años (Trabajador bancario) hace uso de la aplicación y considera que existen partes de la interfaz que la letra es poco clara y no se entiente, además de considerar que para decodificar la lista de mi compañero debería saber cuál fue su desplazamiento.
 
-Luego de esto se considera lo siguiente:
+    **Luego de esto se considera lo siguiente:**
 
-    Las instrucciones fueron corregidas para que sea entendible de forma más clara y llamativa con palabras comunes, se corrigió el diseño de las fuentes para que no se superpongan con algún objeto de la aplicación y se completo la aplicación de manera Responsive para que sea utilizable en todos los dispositivos. 
+Las instrucciones fueron corregidas para que sea entendible de forma más clara y llamativa con palabras comunes, se corrigió el diseño de las fuentes para que no se superpongan con algún objeto de la aplicación y se completo la aplicación de manera Responsive para que sea utilizable en todos los dispositivos. 
 
-    Para una próxima  versión se considera crear un prototipo de correo electrónico donde el usuario pueda enviar y recibir la lista de sus compañeros. 
+Para una próxima  versión se considera crear un prototipo de correo electrónico donde el usuario pueda enviar y recibir la lista de sus compañeros. 
 
 
 |*Criterios de Aceptación*|
