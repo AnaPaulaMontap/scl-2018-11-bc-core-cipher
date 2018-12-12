@@ -43,7 +43,30 @@ para *QUE LAS PERSONAS SEPAN QUE REGALARME* y
 
 para *SABER QUE REGALAR A MI AMIGO SECRETO*
 
+|*Historia de Usuario*|
+|-----------|
+CifraRegalo ha sido creada para personas principalmente oficinistas que cada año en la epoca navideña deben jugar al tipico AMIGO SECRETO y que se le asigna una persona que no conoce y no tiene idea de sus gustos, en nuestro sitio se crea una dinamica previa al sorteo en que los integrantes del juego podrán entregar secretamente una lista de al menos 3 gustos o potenciales regalos como una guía para su amigo secreto. 
 
+    a. Ejemplo de Usuario
+
+Tenemos un usuario ejemplo llamada Rafaella de 30 años quíen comenzó a trabajar en una nueva empresa hace un mes, su equipo de trabajo propone realizar por las fiestas de fin de año un AMIGO SECRETO como una forma de compartir en estas fiestas, ella al estar recientemente en el equipo no tiene idea de que poder regalar y probablemente el compañero que le tenga que regalar a ella tampoco. Entonces ¿Cómo lo hacen?
+
+Para esto hemos creado esta plataforma en donde se podrán codificar mensajes y ser enviados de forma simultanea a los compañeros de oficina para tener una guía en que regalar.
+
+    b. Testeo  de Usuarios 
+
+Se  realiza una prueba con dos usuarios,
+
+- Pilar de 23 años (Trabajadora por sistema de turnos) prueba la aplicación y se encuentra con que las instrucciones no explican que significa de manera practica como codificar un mensaje y los pasos a seguir para poder descifrar el mensaje de los compañeros.
+
+
+- Alberto de 55 años (Trabajador bancario) hace uso de la aplicación y considera que existen partes de la interfaz que la letra es poco clara y no se entiente, además de considerar que para decodificar la lista de mi compañero debería saber cuál fue su desplazamiento.
+
+Luego de esto se considera lo siguiente:
+
+    Las instrucciones fueron corregidas para que sea entendible de forma más clara y llamativa con palabras comunes, se corrigió el diseño de las fuentes para que no se superpongan con algún objeto de la aplicación y se completo la aplicación de manera Responsive para que sea utilizable en todos los dispositivos. 
+
+    Para una próxima  versión se considera crear un prototipo de correo electrónico donde el usuario pueda enviar y recibir la lista de sus compañeros. 
 
 
 |*Criterios de Aceptación*|
