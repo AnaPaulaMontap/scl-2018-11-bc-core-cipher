@@ -5,11 +5,18 @@
   text-align: center;
   text-shadow: 2px 2px 3px black;
   color: #e5e2b6;
-  margin: 0%;
   padding: 1%;
+  font-size: 1.2em;
 
 }
-
+#root2{
+    text-shadow: 2px 2px 3px black;
+}
+#first-part {
+  background: #b71c1c;
+  text-shadow: 2px 2px 3px #310b08;
+  opacity: 0.9;
+}
 #cipherText,
 #root {
   width: 80%;
@@ -41,19 +48,19 @@
   background: #b71c1c;
   padding: 1%;
   border-radius: 15px;
-}
+  }
 
 .footer-copyright {
   width: 100%;
 }
 
-.title-footer {
+#title-footer{
   text-shadow: 2px 2px 3px black;
 }
 
 .container ul li {
   width: 20%;
-  height: 20%;
+  font-size :1.2em;
   display: inline-block;
 }
 
